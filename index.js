@@ -14,6 +14,7 @@ function startTrafficLight() {
   setInterval(changeLight, 5000); // Red for 5 seconds
   setTimeout(() => {
     changeLight();
+    setInterval(changeLight, 5000); // Green for 5 seconds
   }, 2000); // Yellow for 2 seconds
 }
 

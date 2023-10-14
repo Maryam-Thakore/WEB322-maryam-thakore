@@ -1,8 +1,8 @@
 
-```markdown
-# Node.js and Express Web Application
+## Node.js and Express Web Application
 
-This project is a simple web application built with Node.js and Express. It includes user authentication, a paginated list view, and detail pages.
+```This project is a simple web application built with Node.js and Express. ```
+```It includes user authentication, a paginated list view, and detail pages.```
 
 ## Installation
 
@@ -28,21 +28,19 @@ Start the server:
 npm start
 ```
 
-Access the application in your web browser at http://localhost:8080. 
+```Access the application in your web browser at```
+ http://localhost:8080. 
+ ```Use the following credentials to log in:```
 
-Use the following credentials to log in:
+```Username:```
 
--Username: 
----
 yourUsername
----
-- Password: 
----
+
+```Password: ```
+
 yourPassword
----
+
 
 ## Credits
-
-This project was part of the web322 class by Maryam Mohamed.
-```
+```This project was part of the web322 class by Maryam Mohamed.```
 

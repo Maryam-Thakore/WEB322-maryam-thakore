@@ -1,8 +1,8 @@
 
 ## Node.js and Express Web Application
 
-```This project is a simple web application built with Node.js and Express. ```
-```It includes user authentication, a paginated list view, and detail pages.```
+This project is a simple web application built with Node.js and Express. 
+It includes user authentication, a paginated list view, and detail pages.
 
 ## Installation
 
@@ -13,8 +13,11 @@ git clone https://github.com/your-username/your-repository.git
 ```
 
 Navigate to the project directory and install dependencies:
-install ejs
-install 
+npm install ejs
+npm install express-ejs-layouts
+npm install express
+npm install faker-js/faker --save-dev
+
 ```
 cd your-project-directory
 npm install
@@ -25,12 +28,12 @@ npm install
 Start the server:
 
 ```
-npm start
+node server.js
 ```
 
-```Access the application in your web browser at```
+Access the application in your web browser at
  http://localhost:8080. 
- ```Use the following credentials to log in:```
+Use the following credentials to log in:
 
 ```Username:```
 

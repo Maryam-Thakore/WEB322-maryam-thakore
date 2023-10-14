@@ -34,12 +34,15 @@ npm start
 
 ```Username:```
 
+```
 yourUsername
+```
 
 ```Password: ```
 
+```
 yourPassword
-
+```
 
 ## Credits
 ```This project was part of the web322 class by Maryam Mohamed.```

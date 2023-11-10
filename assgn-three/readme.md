@@ -32,11 +32,15 @@ Access the application in your web browser at
  http://localhost:8080. 
 Use the following credentials to log in:
 
-```Username:```
+```
+Username:
+```
 
 yourUsername
 
-```Password: ```
+```
+Password: 
+```
 
 yourPassword
 

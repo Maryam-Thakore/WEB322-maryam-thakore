@@ -1,9 +1,3 @@
-
-## Node.js and Express Web Application
-
-```This project is a simple web application built with Node.js and Express. ```
-```It includes user authentication, a paginated list view, and detail pages.```
-
 ## Installation
 
 Clone the repository to your local machine:

@@ -19,7 +19,7 @@ npm install
 Start the server:
 
 ```
-node srver.js
+node server.js
 ```
 
 Access the application in your web browser at

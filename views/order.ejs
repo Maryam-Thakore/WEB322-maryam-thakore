@@ -1,0 +1,49 @@
+<!-- order.ejs -->
+<html>
+
+<head>
+    <%- include('partials/head.ejs') %>
+</head>
+
+<body class="container">
+    <%- include('partials/topnav.ejs') %>
+    <h1>Order</h1>
+    <table class='table'>
+        <thead>
+            <th>Order ID</th>
+            <th>Product</th>
+            <th>Quantity</th>
+        </thead>
+        <tbody>
+            <% orders.forEach(function(order) { %>
+                <tr>
+                    <td><a href="/order/detail/<%= order._id %>">
+                            <%= order._id %>
+                        </a></td>
+                    <td>
+                        <%= order.productName %>
+                    </td>
+                    <td>
+                        <%= order.quantity %>
+                    </td>
+                </tr>
+            <% }); %>
+        </tbody>
+    </table>
+    <nav aria-label="Page navigation example">
+        <ul class="pagination">
+            <li class="page-item">
+                <a class="page-link" href="/order?page=<%= currentPage - 1 %>" aria-label="Previous">
+                    <span aria-hidden="true">&laquo; Previous</span>
+                </a>
+            </li>
+            <li class="page-item">
+                <a class="page-link" href="/order?page=<%= currentPage + 1 %>" aria-label="Next">
+                    <span aria-hidden="true">Next &raquo;</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</body>
+
+</html>
